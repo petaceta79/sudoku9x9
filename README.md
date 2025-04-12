@@ -100,7 +100,7 @@ El programa mostrará la solución completa con el siguiente formato:
 - Los bloques 3x3 están delimitados con líneas
 - Espaciado consistente entre números
 
-**Para Windows:**
+**SO:**
 - Si se utiliza otra sistema el método de ejecucion sera diferente
 
 **Validación automática:**
