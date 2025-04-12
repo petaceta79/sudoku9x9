@@ -114,7 +114,16 @@ El programa mostrará la solución completa con el siguiente formato:
 g++ -std=c++11 main.cpp sudoku.cpp -o sudoku_solver
 ```
 
-Con un make ya configurado
+**Con un make ya configurado:**
+Compila le programa
+```bash
+make
+```
+
+Borra todos los archivos .o y el ejecutable
+```bash
+make clean
+```
 
 ## 🧠 Estrategia de Resolución
 
