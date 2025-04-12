@@ -50,6 +50,7 @@ int main() {
     
     return 0;
 }
+cpp```
 
 ## 📋 Requisitos
 - Compilador C++ compatible con C++11 o superior
