@@ -52,12 +52,69 @@ int main() {
 }
 ```
 
+## 🚀 Ejecución del Programa
+
+### Método 1: Entrada interactiva (manual)
+```bash
+sudoku_solver.exe
+```
+
+Ingresa el tablero línea por línea (9 filas de 9 números separados por espacios), donde -1 representa celdas vacías:
+
+4 -1 -1 -1 9 -1 -1 -1 -1   | 4 · · | · 9 · | · · ·
+-1 -1 -1 -1 3 -1 4 7 -1    | · · · | · 3 · | 4 7 ·
+-1 -1 -1 -1 -1 -1 -1 3 1   | · · · | · · · | · 3 1
+------+-------+------
+1 -1 -1 3 -1 -1 5 -1 7     | 1 · · | 3 · · | 5 · 7
+3 5 -1 -1 7 6 -1 -1 -1     | 3 5 · | · 7 6 | · · ·
+2 4 -1 9 -1 -1 -1 -1 -1    | 2 4 · | 9 · · | · · ·
+------+-------+------
+6 -1 -1 -1 -1 7 2 9 8      | 6 · · | · · 7 | 2 9 8
+-1 7 -1 2 -1 -1 -1 -1 5    | · 7 · | 2 · · | · · 5
+9 2 4 5 8 -1 -1 -1 -1      | 9 2 4 | 5 8 · | · · ·
+
+### Método 2: Entrada desde archivo
+```bash
+sudoku_solver.exe < data.txt
+```
+Como el data.txt de ejemplo
+
+### Salida esperada
+
+El programa mostrará la solución completa con el siguiente formato:
+4 8 7 | 6 9 1 | 3 5 2
+6 1 2 | 8 3 5 | 4 7 9
+5 9 3 | 7 4 2 | 8 3 1
+------+-------+------
+1 6 8 | 3 2 4 | 5 9 7
+3 5 9 | 1 7 6 | 9 8 4
+2 4 7 | 9 5 8 | 1 6 3
+------+-------+------
+6 3 5 | 4 1 7 | 2 9 8
+8 7 1 | 2 6 9 | 7 4 5
+9 2 4 | 5 8 3 | 6 1 7
+
+**Características de la salida:**
+- Todos los `-1` son reemplazados por valores válidos (1-9)
+- Se mantiene el formato de cuadrícula 9x9 con separadores visuales
+- Los bloques 3x3 están delimitados con líneas
+- Espaciado consistente entre números
+
+**Para Windows:**
+- Si se utiliza otra sistema el método de ejecucion sera diferente
+
+**Validación automática:**
+1. El programa verifica que la solución sea correcta
+2. Comprueba que no haya repeticiones en filas, columnas o bloques
+3. Confirma que todos los valores estén entre 1 y 9
+
 ## 📋 Requisitos
 - Compilador C++ compatible con C++11 o superior
 
 ## 🔧 Compilación
 ```bash
 g++ -std=c++11 main.cpp sudoku.cpp -o sudoku_solver
+```
 
 Con un make ya configurado
 
