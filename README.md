@@ -155,7 +155,7 @@ El solucionador implementa un enfoque híbrido inteligente:
   - Ordena las celdas por dificultad para resolver primero las más restrictivas
 
 ## Archivos importantes
-- Las cabezeras estan en sudoku.hh el cual depende de sudoku.cc
+Las cabezeras estan en sudoku.hh el cual depende de sudoku.cc
 
 ## Ejemplo gràfico
 Dado el ejemplo ubicado en data.txt
