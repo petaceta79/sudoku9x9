@@ -61,9 +61,9 @@ sudoku_solver.exe
 
 Ingresa el tablero línea por línea (9 filas de 9 números separados por espacios), donde -1 representa celdas vacías:
 
-| 4 | -1 | -1 | -1 | 9 | -1 | -1 | -1 | -1 |   | 4 · · | · 9 · | · · ·|
-|-1 | -1 | -1 | -1 | 3 | -1 | 4 | 7 | -1 |     | · · · | · 3 · | 4 7 ·|
-|-1 |-1  |-1  |-1 | -1 | -1 | -1 | 3  |1 |     | · · · | · · · | · 3 1
+|  4  |  -1 |  -1 |  -1 |  9  |  -1 |  -1 |  -1 |  -1 |     |  4  |  ·  |  ·  |  |  ·  |  9  |  ·  |  ·  |  ·  |
+| -1  |  -1 |  -1 |  -1 |  3  |  -1 |  4  |  7  |  -1 |     |  ·  |  ·  |  ·  |  |  ·  |  3  |  ·  |  ·  |  ·  |
+| -1  |  -1 |  -1 |  -1 |  -1 |  -1 |  -1 |  3  |  1  |     |  ·  |  ·  |  ·  |  |  ·  |  ·  |  ·  |  3  |  1  |
 
 ### Método 2: Entrada desde archivo
 ```bash
