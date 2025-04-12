@@ -170,4 +170,4 @@ Dado el ejemplo ubicado en data.txt
 |  5  | -1  |  1  |  6  |  7  | -1  |  4  | -1  |  8  |
 | -1  | -1  | -1  | -1  | -1  |  8  |  3  | -1  |  6  |
 
-<img src="ejemplos/(50x50)a(SinFiltro)Calor.png" width="300" height="300"/> <img src="test/sudCMD.png" width="300" height="300"/>
+<img src="test/sudCMD.png" width="500" height="600"/>
