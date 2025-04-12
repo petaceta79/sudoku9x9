@@ -154,3 +154,20 @@ El solucionador implementa un enfoque híbrido inteligente:
   - Evita búsquedas redundantes mediante memoización
   - Ordena las celdas por dificultad para resolver primero las más restrictivas
 
+## Archivos importantes
+- Las cabezeras estan en sudoku.hh el cual depende de sudoku.cc
+
+## Ejemplo gràfico
+Dado el ejemplo ubicado en data.txt
+| -1  | -1  | -1  | -1  | -1  |  5  | -1  |  7  | -1  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| -1  | -1  |  8  |  1  | -1  | -1  | -1  |  9  | -1  |
+| -1  | -1  | -1  | -1  | -1  |  6  | -1  | -1  |  2  |
+| -1  |  4  |  2  |  8  | -1  | -1  | -1  | -1  |  7  |
+|  8  | -1  | -1  | -1  | -1  |  2  | -1  | -1  | -1  |
+|  7  | -1  |  3  | -1  | -1  | -1  | -1  | -1  | -1  |
+| -1  | -1  |  4  | -1  |  1  | -1  | -1  | -1  | -1  |
+|  5  | -1  |  1  |  6  |  7  | -1  |  4  | -1  |  8  |
+| -1  | -1  | -1  | -1  | -1  |  8  |  3  | -1  |  6  |
+
+<img src="ejemplos/(50x50)a(SinFiltro)Calor.png" width="300" height="300"/> <img src="test/sudCMD.png" width="300" height="300"/>
