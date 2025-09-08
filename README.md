@@ -52,7 +52,7 @@ int main() {
 }
 ```
 
-## 🚀 Ejecución del Programa
+## Ejecución del Programa
 
 ### Método 1: Entrada interactiva (manual)
 ```bash
@@ -106,10 +106,10 @@ El programa mostrará la solución completa con el siguiente formato:
 2. Comprueba que no haya repeticiones en filas, columnas o bloques
 3. Confirma que todos los valores estén entre 1 y 9
 
-## 📋 Requisitos
+## Requisitos
 - Compilador C++ compatible con C++11 o superior
 
-## 🔧 Compilación
+## Compilación
 ```bash
 g++ -std=c++11 main.cpp sudoku.cpp -o sudoku_solver
 ```
@@ -125,7 +125,7 @@ Borra todos los archivos .o y el ejecutable
 make clean
 ```
 
-## 🧠 Estrategia de Resolución
+## Estrategia de Resolución
 
 El solucionador implementa un enfoque híbrido inteligente:
 
@@ -140,7 +140,7 @@ El solucionador implementa un enfoque híbrido inteligente:
    - Implementa retroceso (backtracking) cuando detecta contradicciones
    - Mantiene un mapa de posibles valores por celda para optimizar el proceso
 
-## 📝 Notas Importantes
+## Notas Importantes
 
 - **Representación**:
   - Celdas vacías se marcan con `-1`
